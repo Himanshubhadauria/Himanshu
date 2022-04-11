@@ -1,0 +1,13 @@
+spring:
+   datasource:
+      url: jdbc:sqlserver://wttdatabase.database.windows.net:1433;database=wtt;user=rootwtt@wttdatabase;password=Root@wtt;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+      username: rootwtt
+      password: Root@wtt
+   jpa:
+      show-sql: true
+      hibernate:
+         ddl-auto: update
+         
+         
+server:
+   port: 9191

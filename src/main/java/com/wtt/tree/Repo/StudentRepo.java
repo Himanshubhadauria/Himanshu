@@ -1,0 +1,9 @@
+package com.wtt.tree.Repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.wtt.tree.pojo.Student;
+
+public interface StudentRepo extends JpaRepository<Student, Integer> {
+
+}
